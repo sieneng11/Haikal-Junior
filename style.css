@@ -1,0 +1,376 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    z-index: 2; /* Ensuring Wrapper elements are on top */
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #364F6b;
+    margin-left: 50px;
+    z-index: 2; /* Ensuring logo is on top */
+}
+
+.menu {
+    margin-left: 816px;
+    z-index: 2; /* Ensuring menu is on top */
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: turquoise;
+    border-bottom: 1px solid black;
+    z-index: 2; /* Ensuring nav is on top */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1; /* Ensuring sections are behind nav */
+}
+
+img {
+    margin-top: 80px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Home section styling */
+#home .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364F6b;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+#home h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 0px;
+    color: #364F6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#home p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364F6b;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 80px;
+}
+
+/* Course section styling */
+#course .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364F6b;
+    margin-bottom: 10px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+#course h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: 50px;
+    color: #364F6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#course .course-text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364F6b;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 80px;
+    margin-top: 10px; /* Adjust this value to move the text down */
+    margin-left: 50px;
+}
+
+a.tbl-putih {
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+}
+
+a.tbl-putih:hover {
+    background: lightgray;
+    text-decoration: none;
+}
+
+a.tbl-tosca {
+    background: turquoise;
+    border-radius: 40px;
+    padding: 25px 35px 25px 35px;
+    color: black;
+    cursor: pointer;
+}
+
+a.tbl-tosca:hover {
+    background: lightgray;
+    text-decoration: none;
+}
+
+a.tbl-biru {
+    background: turquoise;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    border-radius: 40px;
+    padding: 25px 35px 25px 35px;
+    color: black;
+    cursor: pointer;
+    font-family: comic sans-ms;
+}
+
+a.tbl-biru:hover {
+    background: lightgray;
+    text-decoration: none;
+}
+
+#course img {
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family: comic sans-ms;
+    color: #364F6b;
+}
+
+/* Mentors section styling */
+#mentors {
+    position: relative;
+    z-index: 1; /* Ensuring mentors section is behind nav */
+}
+
+#mentors .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364F6b;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+#mentors .h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 80px;
+    margin-left: 50px;
+    color: #364F6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#mentors .course-text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364F6b;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: -70px;
+    margin-top: 10px; /* Adjust this value to move the text down */
+    margin-left: 50px;
+}
+
+#mentors .mentors-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mentors .kartu-mentors {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#mentors .kartu-mentors img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+#mentors .kartu-mentors p {
+    font-family: comic sans-ms;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364F6b;
+}
+
+/* Partners section styling */
+#partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#partners .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364F6b;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 100px;
+}
+
+#partners h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 50px; /* Adjust font size as needed */
+    text-align: center;
+    color: #364F6b;
+    margin: 0; /* Adjust margin as needed */
+}
+
+#partners .course-text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364F6b;
+    text-align: center;
+    margin: 10px 0px; /* Adjust margin as needed */
+}
+
+#partners .kartu-partners {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly between items */
+    flex-wrap: nowrap; /* Ensure items do not wrap to the next line */
+    margin-top: 50px; /* Adjust margin as needed */
+    width: 100%; /* Ensure full width to distribute items evenly */
+}
+
+#partners .kartu-partners .partner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* Horizontal margin between items */
+}
+
+#partners .kartu-partners img {
+    width: 200px; /* Adjust width as needed */
+    margin: 10px; /* Adjust margin as needed */
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+#contact .footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap; /* Ensure items do not wrap to the next line */
+    margin: auto;
+    justify-content: space-between; /* Distribute space evenly between items */
+    align-items: flex-start; /* Align items to the top */
+    padding: 0 50px; /* Add padding to ensure spacing from edges */
+}
+
+#contact .footer-section {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically within the section */
+    align-items: center; /* Center items horizontally */
+    margin: 0 20px; /* Add horizontal margin */
+    flex: 1; /* Allow sections to grow and take up available space */
+}
+
+#contact h3 {
+    font-family: comic sans-ms;
+    font-weight: 800;
+    font-size: 30px;
+    color: #364F6b;
+    margin: 0; /* Remove margin to fit horizontally */
+    line-height: normal; /* Adjust line height */
+    margin-bottom: 10px; /* Space between h3 and p */
+}
+
+#contact p {
+    font-family: comic sans-ms;
+    font-size: 16px; /* Adjust font size as needed */
+    color: #364F6b;
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center align text */
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    margin-top: 20px;
+}
+
+
